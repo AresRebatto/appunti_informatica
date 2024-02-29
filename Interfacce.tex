@@ -174,7 +174,7 @@ In questa classe abbiamo 3 properties di cui una è l'istanza di un'enum. Due co
 overload e poi va a fare l'implementazione, mantenendolo comunque come virtuale, del metodo Accellera presente in IAccelerable aumentando la properties velocità.\\
 Avviene anche l'implementazione per il metodo Accelera che richiede un interno in input,
 ma questa volta lancia un'eccezione per segnalare che non vi è nessuna implementazione per
-il metodo in questione. \\
+il metodo in questione; il dubbio che potrebbe sorgere a questo punto è che potremmo semplicemente non implementarlo piuttosto che lanciare un'eccezione: in realtà quando facciamo derivare una classe da un'interfaccia, dobbiamo implementare tutti i suoi metodi. \\
 Fa infine l'override del metodo ToString presente già nella classe predefinita Object. \\
 La parte più importante si trova in cima, affianco al nome della classe: vediamo infatti
 che questa classe è figlia di due interfacce, ovvero la nostra IAccelerable e un'interfaccia
