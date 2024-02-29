@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Programmazione ad oggetti}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Metodi d'estensione}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Classi astratte}{4}{}%
+\contentsline {subsection}{\numberline {1.3}Interfacce}{5}{}%
